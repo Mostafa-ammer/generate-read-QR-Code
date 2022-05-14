@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>QR Code Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body >
+    
+
+    <div class="container">
+      <ul class="color-switch">
+          <li data-color="red"></li>
+          <li data-color="green"></li>
+          <li data-color="purple"></li>
+          <li data-color="black"></li>
+      </ul>
+
+      <div class="all">
+        <div class="wrapper" >
+          <form action="#">
+            <input type="file" hidden>
+            <img src="#" alt="qr-code">
+            <div class="content">
+              <i class="fas fa-cloud-upload"></i>
+              <p>Upload QR Code to Read</p>
+            </div>
+          </form>
+          <div class="details">
+            <textarea spellcheck="false" disabled></textarea>
+            <div class="buttons">
+              <button class="close">Close</button>
+              <button class="copy">Copy Text</button>
+            </div>
+          </div>
+        </div>
+    
+        
+        <div class="wrapper2">
+          <header>
+            <h1>QR Code Generator</h1>
+            <p>Paste a url or enter text to create QR code</p>
+          </header>
+          <div class="form">
+            <input type="text"  spellcheck="false" placeholder="Enter text or url">
+            <button class="bt">Generate QR Code</button>
+          </div>
+          <div class="qr-code">
+            <img src="" alt="qr-code1">
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
